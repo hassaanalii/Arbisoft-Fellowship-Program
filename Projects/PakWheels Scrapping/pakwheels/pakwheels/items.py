@@ -11,10 +11,10 @@ class PakwheelsItem(scrapy.Item):
     description_text = scrapy.Field()
     price = scrapy.Field()
     model = scrapy.Field()
+    location = scrapy.Field()
     kms_ran = scrapy.Field()
     engine_power = scrapy.Field()
     transmission = scrapy.Field()
     image_link = scrapy.Field()
-
 
     pass
